@@ -5,9 +5,7 @@ function generatePassword(length,maj,chif,car) {
     let password = '';
   
     if(length === 8) {
-      // Recherchez les caractères "a", "n", "f", "u", "w", "p", "r", et "u" dans le tableau de caractères
       for (let i = 0; i < characters.length; i++) {
-        const character = characters[i];
         password = characters[0];
         password += characters[13];
         password += characters[5];
@@ -19,9 +17,8 @@ function generatePassword(length,maj,chif,car) {
   
         return password;
       }
-    } else if (length === 12 && maj == true && chif === true && car === true){
+    } else if (length === 12 && maj === true && chif === true && car === true){
       for (let i = 0; i < characters.length; i++) {
-        const character = characters[i];
         password = characters[9];
         password += characters[54];
         password += characters[64];
