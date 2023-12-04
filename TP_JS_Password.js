@@ -9,13 +9,13 @@ function generatePassword(length,maj,chif,car) {
       for (let i = 0; i < characters.length; i++) {
         const character = characters[i];
         password = characters[0];
-        password = password +characters[13];
-        password = password + characters[5];
-        password = password + characters[20];
-        password = password + characters[22];
-        password = password + characters[15];
-        password = password + characters[17];
-        password = password + characters[20];
+        password += characters[13];
+        password += characters[5];
+        password += characters[20];
+        password += characters[22];
+        password += characters[15];
+        password += characters[17];
+        password += characters[20];
   
         return password;
       }
@@ -23,17 +23,17 @@ function generatePassword(length,maj,chif,car) {
       for (let i = 0; i < characters.length; i++) {
         const character = characters[i];
         password = characters[9];
-        password = password +characters[54];
-        password = password + characters[64];
-        password = password + characters[26];
-        password = password + characters[12];
-        password = password + characters[59];
-        password = password + characters[27];
-        password = password + characters[6];
-        password = password + characters[63];
-        password = password + characters[33];
-        password = password + characters[26];
-        password = password + characters[62];
+        password += characters[54];
+        password += characters[64];
+        password += characters[26];
+        password += characters[12];
+        password += characters[59];
+        password += characters[27];
+        password += characters[6];
+        password += characters[63];
+        password += characters[33];
+        password += characters[26];
+        password += characters[62];
 
         return password;
       }
